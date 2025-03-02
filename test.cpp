@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 #include <sstream>
-#include "../hanoi.cpp" 
+#include "../main.cpp" 
 
 using namespace std;
 
