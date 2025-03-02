@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 #include <sstream>
-#include /main.cpp
+#include "main.cpp"
 
 using namespace std;
 
