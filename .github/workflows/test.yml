@@ -30,7 +30,7 @@ jobs:
 
       - name: Compile tests
         run: |
-          g++ -o test_hanoi test_hanoi.cpp -lgtest -lgtest_main -pthread
+          g++ -o test test.cpp -lgtest -lgtest_main -pthread
 
       - name: Run tests
-        run: ./test_hanoi
+        run: ./test
