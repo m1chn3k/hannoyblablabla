@@ -50,8 +50,3 @@ TEST(HanoiTest, MoveCount) {
     EXPECT_EQ(moveCount, 15);  // Для 4 дисків має бути 2^4 - 1 = 15 ходів
 }
 
-int main(int argc, char **argv) {
-    ::testing::InitGoogleTest(&argc, argv);
-    return RUN_ALL_TESTS();
-}
-
